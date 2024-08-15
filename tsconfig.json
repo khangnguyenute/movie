@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@constants/*": ["./src/app/Constants/*"],
+      "@services/*": ["./src/app/Services/*"],
+      "@slices/*": ["./src/app/Slices/*"],
+      "@enums/*": ["./src/app/Enums/*"],
+      "@selectors/*": ["./src/app/Selectors/*"],
+      "@interfaces/*": ["./src/app/Types/*"],
+      "@app/*": ["./src/app/*"],
+      "@components/*": ["./src/common/Components/*"],
+      "@hooks/*": ["./src/common/Hooks/*"],
+      "@utils/*": ["./src/common/Utils/*"],
+      "@common/*": ["./src/common/*"],
+      "@auth/*": ["./src/features/Auth/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "build", "scripts"]
+}
