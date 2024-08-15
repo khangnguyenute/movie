@@ -1,0 +1,11 @@
+{
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.endOfLine": "crlf",
+  "scss.validate": false,
+  "tailwindCSS.experimental.classRegex": ["[cC]lassName\\w*\\s*[+-]?-\\s*\"([^\"]*(-[a-zA-Z0-9]+)+)\""]
+}
